@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up - Willify</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./script.js" defer></script>
+</head>
+<body>
+    <div class="logo">
+        <a href="../Home/index.html"><img src="../assets/icon/logoWithTitle.svg" alt="Willify Logo"></a>
+    </div>
+    <div class="main-container">
+        <img src="../assets/image/registerImage.avif" alt="Electronic music">
+        <main class="content">
+            <h1>Sign Up and start your music journey</h1>
+            <form name="form" id="form" class="flex-column" method="GET" action="/">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" placeholder="John Wickman" value="">
+        
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="johnWickman@gmail.com" value="">
+        
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="password" value="">
+        
+                <div class="half-inputs">
+                    <div class="age-input">
+                        <label for="age">Age</label>
+                        <input type="number" id="age" name="age" placeholder="24" value="">
+                    </div>
+                    <div class="gender-input">
+                        <label for="gender">Gender</label>
+                        <select required name="gender" id="gender" required>
+                            <option value="" disabled selected hidden>Select Gender</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                </div>
+        
+                <button type="submit">Submit</button>
+            </form>
+            <footer>
+                <p>Copyright &#169 2024 <b>Willify, Ltd. </b> All rights reserved</p>
+                <div class="footer-link"">
+                    <a href="../AboutUs/index.html">About Us</a>
+                    <p>|</p>
+                    <a href="#">Privacy and Policy</a>
+                    <p>|</p>
+                    <a href="#">Support</a>
+                    <p>|</p>
+                    <a href="#">Cookies</a>
+                    <p>|</p>
+                    <a href="#">Feedback</a>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+</html>

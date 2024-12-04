@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Song</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="script.js" defer></script>
+</head>
+<body>
+    <aside class="desktop">
+        <nav>
+            <div class="logo">
+                <a href="../Home/index.html"><img src="../assets/icon/logoWithTitle.svg" alt="Willify Logo"></a>
+            </div>
+            <ul>
+                <li>
+                    <a href="../Home/index.html">
+                        <img src="../assets/icon/home.svg" alt="Home">
+                        Home
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../assets/icon/search.svg" alt="Search">
+                        Search
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="../assets/icon/library.svg" alt="Library">
+                        Library
+                    </a>
+                </li>
+            </ul>
+        </nav>
+        <div class="settings">
+            <img src="../assets/icon/settings.svg" alt="Settings">
+            <span>Settings</span>
+        </div>
+    </aside>
+    <aside class="mobile">
+        <div class="sidebar-top">
+            <div class="logo">
+                <a href="../Home/index.html"><img src="../assets/icon/logo.svg" alt="Willify Logo"></a>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="../Home/index.html">
+                            <img src="../assets/icon/home.svg" alt="Home">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/icon/search.svg" alt="Search">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="../assets/icon/library.svg" alt="Library">
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="settings">
+            <img src="../assets/icon/settings.svg" alt="Settings">
+        </div>
+    </aside>
+    <main>
+        <div class="account-options">
+            <div class="sign-in">
+                <span>Sign In</span>
+            </div>
+            <div class="sign-up">
+                <span>Sign Up</span>
+            </div>
+        </div>
+        <div class="profile">
+            <img id="accountImg" src="../assets/icon/account.svg" alt="">
+            <p>Celi</p>
+        </div>
+        <div class="title flex-row">
+            <img src="../assets/charts/top50GlobalCropped.png" alt="">
+            <div>
+                <h1 id="title-of-page">Top Global 50</h1>
+                <p>Featuring the most streamed song tracks in Willify of the day from all regions</p>
+            </div>
+        </div>
+        <div class="container">
+            <div class="actions flex-row">
+                <button class="main-button">
+                    <img src="../assets/icon/play.svg" alt="">
+                    <span>Play</span>
+                </button>
+                <div class="right-actions">
+                    <img src="../assets/icon/shufflePlay.svg" alt="">
+                    <img src="../assets/icon/addToPlaylist.svg" alt="">
+                    <img src="../assets/icon/likesEmpty.svg" alt="">
+                    <img src="../assets//icon/threeDots.svg" alt="">
+                </div>
+            </div>
+            <div class="song-list">
+                <div class="song-list-header">
+                    <h3>Title</h3>
+                    <h3>Artist</h3>
+                    <h3>Plays</h3>
+                    <h3>Time</h3>
+                </div>
+                <ul class="list"></ul>
+            </div>
+            <footer>
+                <p>Copyright &#169 2024 <b>Willify, Ltd. </b> All rights reserved</p>
+                <div class="footer-link"">
+                    <a id="aboutUs">About Us</a>
+                    <p>|</p>
+                    <a href="#">Privacy and Policy</a>
+                    <p>|</p>
+                    <a href="#">Support</a>
+                    <p>|</p>
+                    <a href="#">Cookies</a>
+                    <p>|</p>
+                    <a href="#">Feedback</a>
+                </div>
+            </footer>
+        </div>
+    </main>
+</body>
+</html>
